@@ -44,17 +44,21 @@ button {
   white-space: wrap;
   border-radius: 8px;
   cursor: pointer;
+  transition: all 0.3s ease-out;
 }
+
 button:hover,
 .button:focus {
   color: #333;
   border-color: #888;
   outline: 0;
 }
+
 .button.button-primary {
   color: #fff;
   filter: brightness(90%);
 }
+
 .button.button-primary:hover,
 .button.button-primary:focus {
   color: #fff;
@@ -765,7 +769,7 @@ button:hover,
 /* Unsplash */
 .button.button-unsplash {
   color: #000000;
-  background-color: #ffffff;
+  background-color: #f4f4f4;
 }
 .button.button-unsplash:hover,
 .button.button-unsplash:focus {

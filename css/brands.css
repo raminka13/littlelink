@@ -269,7 +269,7 @@ button:hover,
 /* GitHub */
 .button.button-github {
   color: #ffffff;
-  background-color: #000000;
+  background-color: #181818;
 }
 .button.button-github:hover,
 .button.button-github:focus {
@@ -759,7 +759,7 @@ button:hover,
 /* YouTube */
 .button.button-yt {
   color: #ffffff;
-  background-color: #000000;
+  background-color: #181818;
 }
 .button.button-yt:hover,
 .button.button-yt:focus {

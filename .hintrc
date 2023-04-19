@@ -1,5 +1,16 @@
 {
   "extends": [
     "development"
-  ]
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "color-scheme",
+          "-ms-text-size-adjust"
+        ]
+      }
+    ]
+  }
 }

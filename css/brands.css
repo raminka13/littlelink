@@ -232,6 +232,23 @@ button:hover,
   filter: brightness(90%);
 }
 
+
+/* eMail */
+.button.button-email {
+  color: #ffffff;
+  background-image: linear-gradient(
+    25deg,
+    #0099ff,
+    #4b3395,
+    #b900b4
+  );
+}
+
+.button.button-email:hover,
+.button.button-email:focus {
+  filter: brightness(90%);
+}
+
 /* Facebook */
 .button.button-faceb {
   color: #ffffff;
@@ -298,7 +315,7 @@ button:hover,
 /* Gitlab */
 .button.button-gitlab {
   color: #ffffff;
-  background-color: #6151b2;
+  background-color: #4949a9;
 }
 
 .button.button-gitlab:hover,
@@ -419,7 +436,7 @@ button:hover,
 /* LinkedIn */
 .button.button-linked {
   color: #ffffff;
-  background-color: #2867b2;
+  background-color: #0a66c2;
 }
 
 .button.button-linked:hover,
@@ -441,7 +458,7 @@ button:hover,
 /* Medium */
 .button.button-medium {
   color: #ffffff;
-  background-color: #000000;
+  background-color: #181818;
 }
 
 .button.button-medium:hover,
@@ -792,7 +809,7 @@ button:hover,
 /* WhatsApp */
 .button.button-whatsapp {
   color: #ffffff;
-  background-color: #455a64;
+  background-color: #015148;
 }
 
 .button.button-whatsapp:hover,

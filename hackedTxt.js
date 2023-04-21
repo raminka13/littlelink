@@ -4,6 +4,12 @@ const textArray = ['Raul Ospina', '@raminka13♐︎', '@raminka13⌘', '@raminka
 let interval = null;
 const h1 = document.querySelector('#hacked-text');
 
+function randomText() {
+  return textArray[Math.floor(Math.random() * textArray.length)];
+}
+
+h1.dataset.value = randomText();
+
 function hackText() {
   let iteration = 0;
   clearInterval(interval);
@@ -31,6 +37,11 @@ document.querySelector('h1').onmouseover = (event) => {
   hackText();
 };
 
+document.querySelector('h1').ontouchstart = (event) => {
+  hackText();
+  h1.dataset.value = randomText();
+};
+
 document.querySelector('h1').onmouseout = (event) => {
-  h1.dataset.value = textArray[Math.floor(Math.random() * textArray.length)];
+  h1.dataset.value = randomText();
 };

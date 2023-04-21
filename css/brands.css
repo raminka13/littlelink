@@ -74,6 +74,7 @@ button:hover,
   vertical-align: middle;
   width: 20px;
   height: 20px;
+  transition: transform 0.27s ease-out;
 }
 
 /* Brand Styles

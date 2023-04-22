@@ -412,6 +412,18 @@ button:hover,
   opacity: 0.8;
 }
 
+/* JSON Resume */
+.button.button-jsonresume {
+  color: #000000;
+  background-color: #fff18f;
+}
+
+.button.button-jsonresume:hover,
+.button.button-jsonresume:focus {
+  filter: brightness(90%);
+  opacity: 0.8;
+}
+
 /* kickstarter */
 .button.button-kickstarter {
   color: #ffffff;

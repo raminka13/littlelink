@@ -8,7 +8,7 @@
   display: flex;
   align-content: center;
   justify-content: center;
-  animation: opacityAnimation 1.3s ease forwards;
+  animation: opacityAnimation 1.8s ease forwards;
 }
 
 .sk-folding-cube {
@@ -60,22 +60,25 @@
   -webkit-transform-origin: 100% 100%;
   -ms-transform-origin: 100% 100%;
   transform-origin: 100% 100%;
-  background: #ff8306;
+  background: #0f71f2;
 }
 
 .sk-folding-cube .sk-cube2:before {
   -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s;
+  background: #3ea210;
 }
 
 .sk-folding-cube .sk-cube4:before {
   -webkit-animation-delay: 0.9s;
   animation-delay: 0.9s;
+  background: #f2a20c;
 }
 
 .sk-folding-cube .sk-cube3:before {
   -webkit-animation-delay: 0.6s;
   animation-delay: 0.6s;
+  background: #d92929;
 }
 
 @keyframes opacityAnimation {

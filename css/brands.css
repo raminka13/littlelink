@@ -571,6 +571,18 @@ button:hover,
   opacity: 0.8;
 }
 
+/* Portfolio */
+.button.button-portfolio {
+  color: #fff;
+  background-image: linear-gradient(25deg, #fec55f, #e45865);
+}
+
+.button.button-portfolio:hover,
+.button.button-portfolio:focus {
+  filter: brightness(90%);
+  opacity: 0.8;
+}
+
 /* Post.news */
 .button.button-post-news {
   color: #ffffff;

@@ -1,12 +1,6 @@
 const preloader = window.document.getElementById('preload');
 const container = window.document.getElementById('container');
 
-window.scrollTo({
-    top: 0,
-    left: 0,
-    behavior: "smooth",
-});
-
 // function random() {
 //     return Math.floor(Math.random() * (10));
 // }
@@ -17,6 +11,11 @@ window.scrollTo({
 // }
 
 window.addEventListener('load', () => {
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "instant",
+    });
     setTimeout(() => {
         preloader.classList.add('hidden');
         container.classList.add('loaded')

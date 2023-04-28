@@ -1,5 +1,5 @@
 const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890';
-const textArray = ['Raul Ospina', '@raminka13♐︎', '@raminka13⌘', '@raminka13✓', 'Raul Ospina'];
+const textArray = ['Raul Ospina', '@raminka13✓', 'Raul Ospina'];
 
 let interval = null;
 const h1 = document.querySelector('#hacked-text');
@@ -45,3 +45,7 @@ document.querySelector('h1').ontouchstart = (event) => {
 document.querySelector('h1').onmouseout = (event) => {
   h1.dataset.value = randomText();
 };
+
+setTimeout(() => {
+  hackText();
+}, 5400);

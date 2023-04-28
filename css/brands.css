@@ -573,7 +573,7 @@ button:hover,
 
 /* Portfolio */
 .button.button-portfolio {
-  color: #fff;
+  color: #000;
   background-image: linear-gradient(25deg, #fec55f, #e45865);
 }
 
